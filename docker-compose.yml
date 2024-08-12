@@ -1,0 +1,57 @@
+version: "3.7"
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.15.0
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=true
+      - xpack.security.authc.api_key.enabled=true
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    ports:
+      - "9200:9200"
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.15.0
+    container_name: kibana
+    ports:
+      - "5601:5601"
+    depends_on:
+      - elasticsearch
+    volumes:
+      - ./kibana.yml:/usr/share/kibana/config/kibana.yml
+
+  apm-server:
+    user: root
+    image: docker.elastic.co/apm/apm-server:7.15.0
+    container_name: apm-server
+    environment:
+      - output.elasticsearch.hosts=["http://elasticsearch:9200"]
+      - setup.kibana.host=http://kibana:5601
+      - setup.kibana.username=kibana
+      - setup.kibana.password=Ahmed@1234
+      - output.elasticsearch.username=elastic
+      - output.elasticsearch.password=Ahmed@1234
+      - apm-server.host=0.0.0.0:8200
+      - apm-server.ilm.enabled=true
+      - apm-server.ilm.setup.enabled=true
+      - apm-server.ilm.setup.overwrite=false
+      - apm-server.ilm.setup.policy_name=apm-rollover
+      - apm-server.ilm.setup.rollover_alias=apm-rollover
+      - apm-server.ilm.setup.pattern="{now/d}-000001"
+      - apm-server.ilm.setup.check_exists=false
+      - apm-server.ilm.setup.check_rollover_alias=false
+    ports:
+      - "8200:8200"
+    depends_on:
+      - elasticsearch
+    volumes:
+      - ./apm-server.yml:/usr/share/apm-server/apm-server.yml
+    command: sh -c "chmod 600 /usr/share/apm-server/apm-server.yml && apm-server -e"
+
+volumes:
+  esdata:
+    driver: local

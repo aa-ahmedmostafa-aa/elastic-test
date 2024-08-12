@@ -1,0 +1,26 @@
+apm-server:
+  host: "0.0.0.0:8200"
+
+  auth:
+    secret_token: "mysecrettoken"
+
+  ilm:
+    enabled: true
+    setup:
+      enabled: true
+      overwrite: false
+      policy_name: "apm-rollover"
+      rollover_alias: "apm-rollover"
+      pattern: "{now/d}-000001"
+      check_exists: false
+      check_rollover_alias: false
+
+output.elasticsearch:
+  hosts: ["http://elasticsearch:9200"]
+  username: "elastic"
+  password: "Ahmed@1234"
+
+setup.kibana:
+  host: "http://kibana:5601"
+  username: "kibana"
+  password: "Ahmed@1234"

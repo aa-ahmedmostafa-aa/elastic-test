@@ -1,0 +1,112 @@
+{"body":{},"headers":{"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US,en;q=0.9","cache-control":"max-age=0","connection":"keep-alive","cookie":"__stripe_mid=b3ca9197-972b-436d-93b3-723faf837598a88018","host":"localhost:5000","if-none-match":"W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\"","sec-ch-ua":"\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"document","sec-fetch-mode":"navigate","sec-fetch-site":"none","sec-fetch-user":"?1","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"},"level":"info","message":"Incoming request: GET /users","method":"GET","timestamp":"2024-08-11T13:14:30.702Z","url":"/users"}
+{"body":{},"headers":{"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US,en;q=0.9","cache-control":"max-age=0","connection":"keep-alive","cookie":"__stripe_mid=b3ca9197-972b-436d-93b3-723faf837598a88018","host":"localhost:5000","if-none-match":"W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\"","sec-ch-ua":"\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"document","sec-fetch-mode":"navigate","sec-fetch-site":"none","sec-fetch-user":"?1","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"},"level":"info","message":"Incoming request: GET /users","method":"GET","timestamp":"2024-08-11T13:16:52.399Z","url":"/users"}
+{"body":{},"headers":{"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US,en;q=0.9","cache-control":"max-age=0","connection":"keep-alive","cookie":"__stripe_mid=b3ca9197-972b-436d-93b3-723faf837598a88018","host":"localhost:5000","if-none-match":"W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\"","sec-ch-ua":"\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"document","sec-fetch-mode":"navigate","sec-fetch-site":"none","sec-fetch-user":"?1","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"},"level":"info","message":"Incoming request: GET /users","method":"GET","timestamp":"2024-08-11T13:16:53.353Z","url":"/users"}
+{"body":{},"headers":{"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US,en;q=0.9","cache-control":"max-age=0","connection":"keep-alive","cookie":"__stripe_mid=b3ca9197-972b-436d-93b3-723faf837598a88018","host":"localhost:5000","if-none-match":"W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\"","sec-ch-ua":"\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"document","sec-fetch-mode":"navigate","sec-fetch-site":"none","sec-fetch-user":"?1","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"},"level":"info","message":"Incoming request: GET /users","method":"GET","timestamp":"2024-08-11T13:16:54.068Z","url":"/users"}
+{"body":{},"headers":{"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US,en;q=0.9","cache-control":"max-age=0","connection":"keep-alive","cookie":"__stripe_mid=b3ca9197-972b-436d-93b3-723faf837598a88018","host":"localhost:5000","if-none-match":"W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\"","sec-ch-ua":"\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"document","sec-fetch-mode":"navigate","sec-fetch-site":"none","sec-fetch-user":"?1","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"},"level":"info","message":"Incoming request: GET /users","method":"GET","timestamp":"2024-08-11T13:17:39.671Z","url":"/users"}
+{"body":{},"headers":{"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US,en;q=0.9","cache-control":"max-age=0","connection":"keep-alive","cookie":"__stripe_mid=b3ca9197-972b-436d-93b3-723faf837598a88018","host":"localhost:5000","if-none-match":"W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\"","sec-ch-ua":"\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"document","sec-fetch-mode":"navigate","sec-fetch-site":"none","sec-fetch-user":"?1","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"},"level":"info","message":"Incoming request: GET /users","method":"GET","timestamp":"2024-08-11T13:18:26.081Z","url":"/users"}
+{
+  "body": {},
+  "headers": {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "max-age=0",
+    "connection": "keep-alive",
+    "cookie": "__stripe_mid=b3ca9197-972b-436d-93b3-723faf837598a88018",
+    "host": "localhost:5000",
+    "if-none-match": "W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\"",
+    "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "none",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+  },
+  "level": "\u001b[32minfo\u001b[39m",
+  "message": "Incoming request: GET /users",
+  "method": "GET",
+  "timestamp": "2024-08-11T13:20:27.144Z",
+  "url": "/users"
+}
+{
+  "level": "\u001b[32minfo\u001b[39m",
+  "message": "Incoming request: GET /users",
+  "method": "GET",
+  "timestamp": "2024-08-11T13:21:03.520Z",
+  "url": "/users"
+}
+{
+  "level": "\u001b[32minfo\u001b[39m",
+  "message": "Incoming request",
+  "method": "GET",
+  "query": {},
+  "timestamp": "2024-08-11T13:27:40.749Z",
+  "url": "/users"
+}
+{
+  "level": "\u001b[32minfo\u001b[39m",
+  "message": "Incoming request",
+  "method": "GET",
+  "query": {},
+  "timestamp": "2024-08-11T13:28:04.530Z",
+  "url": "/users"
+}
+{
+  "level": "\u001b[32minfo\u001b[39m",
+  "message": "Incoming request",
+  "method": "GET",
+  "query": {},
+  "timestamp": "2024-08-11T13:34:00.348Z",
+  "url": "/users"
+}
+{
+  "level": "\u001b[32minfo\u001b[39m",
+  "message": "Incoming request",
+  "method": "GET",
+  "query": {},
+  "timestamp": "2024-08-11T13:34:16.723Z",
+  "url": "/users"
+}
+{
+  "level": "\u001b[32minfo\u001b[39m",
+  "message": "Incoming request",
+  "method": "GET",
+  "query": {},
+  "timestamp": "2024-08-11T13:35:18.574Z",
+  "url": "/users"
+}
+{
+  "level": "\u001b[32minfo\u001b[39m",
+  "message": "Incoming request",
+  "method": "GET",
+  "query": {},
+  "timestamp": "2024-08-11T13:38:25.690Z",
+  "url": "/users"
+}
+{
+  "level": "\u001b[32minfo\u001b[39m",
+  "message": "Incoming request",
+  "method": "GET",
+  "query": {},
+  "timestamp": "2024-08-11T13:47:41.692Z",
+  "url": "/users"
+}
+{
+  "level": "\u001b[32minfo\u001b[39m",
+  "message": "Incoming request",
+  "method": "GET",
+  "query": {},
+  "timestamp": "2024-08-11T13:53:36.030Z",
+  "url": "/users"
+}
+{
+  "level": "\u001b[32minfo\u001b[39m",
+  "message": "Incoming request",
+  "method": "GET",
+  "query": {},
+  "timestamp": "2024-08-11T13:57:59.791Z",
+  "url": "/users"
+}
